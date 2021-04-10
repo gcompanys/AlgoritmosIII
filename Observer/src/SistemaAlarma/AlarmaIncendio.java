@@ -1,3 +1,5 @@
+package SistemaAlarma;
+
 import java.util.ArrayList;
 
 public class AlarmaIncendio implements Sujeto{
@@ -14,6 +16,10 @@ public class AlarmaIncendio implements Sujeto{
             this.notificarObservador();
             this.encendida = true;
         }
+    }
+
+    public boolean estaEncendida(){
+        return this.encendida;
     }
 
 

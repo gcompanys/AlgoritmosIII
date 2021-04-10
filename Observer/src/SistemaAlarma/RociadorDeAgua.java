@@ -1,3 +1,5 @@
+package SistemaAlarma;
+
 public class RociadorDeAgua implements Observador{
 
     private boolean encendido;
